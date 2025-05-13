@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Velvelyne";
-  src: url("./assets/fonts/Velvelyne-Regular.woff") format("woff");
+  src: url("./Assets/fonts/Velvelyne-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Velvelyne";
-  src: url("./assets/fonts/Velvelyne-Bold.woff") format("woff");
+  src: url("./Assets/fonts/Velvelyne-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
