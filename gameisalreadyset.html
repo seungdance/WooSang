@@ -10,7 +10,16 @@
       body * {
         color: #77ffe7 !important;
       }
-
+body::before {
+  content: '';
+  position: fixed;
+  left: 0; right: 0;
+  top: 0;
+  height: env(safe-area-inset-top);
+  background: #ff0000; /* 원하는 safe area 상단 배경색 */
+  z-index: 9999;
+  pointer-events: none;
+}
       .content {
         min-height: 80vh;
         display: block;
