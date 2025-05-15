@@ -339,16 +339,19 @@ span:hover {
 }
 
 .background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 1;
-  z-index: -1;
+  min-height: 100vh;
+        min-height: 100dvh;
+        width: 100vw;
+        position: fixed;
+        top: 0; left: 0;
+        z-index: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        pointer-events: none;
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
 }
 
 .electro-asura-bg .background-image {
